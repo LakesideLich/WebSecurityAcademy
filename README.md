@@ -20,4 +20,4 @@ Burp Suite is a web proxy and suite of tools for web application penetration tes
    
 ![Screen Shot 2023-07-06 at 1 03 42 AM](https://github.com/tatruesdell/WebSecurityAcademy/assets/43506369/ee9475bf-3df4-4583-b021-5a864c9b05b7)
 
-Note the academyLabHeader file is excluded as well to keep it from showing in the HTTP history. 
+   Note the academyLabHeader file is excluded as well to keep it from showing in the HTTP history. 
