@@ -1,4 +1,4 @@
-![image](https://github.com/tatruesdell/WebSecurityAcademy/assets/43506369/1e2551b1-d381-4248-b9df-11ca5d47ff7b)# Web Security Academy
+# Web Security Academy
 
 This repository is where I upload write-ups for solved labs from PortSwigger's Web Security Academy!
 
