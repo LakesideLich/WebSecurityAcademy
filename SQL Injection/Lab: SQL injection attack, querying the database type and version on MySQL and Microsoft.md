@@ -11,7 +11,7 @@ SELECT @@version
 
 Therefore, this is the payload we wish to inject to the SQL query. We know that the vulnerable element of the application is the product category filter. Like in the previous lab, we will have to enumerate the columns returned by the filter. Since we used the NULL method in the previous lab, we'll use ORDER BY in this example. 
 
-Recall the following SQL query from previous labs and example:
+Recall the following SQL query from previous labs and examples:
 ```
 SELECT * FROM products WHERE category = '%' and released = 1
 ````
