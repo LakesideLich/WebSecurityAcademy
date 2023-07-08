@@ -7,9 +7,12 @@ This lab contains a SQL injection vulnerability in the product category filter. 
 Recall the different methods for displaying database version strings:
 
 ```
-Oracle: SELECT banner FROM v$version
-        SELECT version FROM v$instance
-Microsoft: SELECT @@version
-PostGRESQL: SELECT version()
-MySQL: SELECT @@version
+Oracle:         SELECT banner FROM v$version
+                SELECT version FROM v$instance
+
+Microsoft:      SELECT @@version
+
+PostGRESQL:     SELECT version()
+
+MySQL:          SELECT @@version
 ```
