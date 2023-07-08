@@ -68,4 +68,4 @@ Notice that this query causes the same response as the initial "Gifts" query. Th
 /filter?category=Gifts'+UNION+SELECT+banner,NULL+FROM+v$version--
 ```
 
-Send this request, and solve the lab. 
+Send this request, and see if you can find the version details in the application's response. You've solved the lab!
