@@ -15,12 +15,12 @@ Recall the following SQL query from previous labs and examples:
 ```
 SELECT * FROM products WHERE category = '%' and released = 1
 ````
-Our injectin point will be where the percent sign % is in this query. 
+Our injection point will be where the percent sign % is in this query. 
 
 
-Start the lab and select any category of product. In this case, I have selected the "Gifts" category. In Burp Repeater, add a single quote to the end of the query and send it. Observe that the application produces an error in response. Add a double dash sequence -- after the query and send it again, once more inducing an error. Change the double dash comment sequence to a pound sign/hashtag # and send the request again, resulting in "200 OK". 
+Start the lab and select any category of product. In this case, I have selected the "Gifts" category. In Burp Repeater, add a single quote to the end of the query and send the request. Observe that the application produces an error in response. Add a double dash sequence -- after the query and send it again, once more inducing an error. Change the double dash comment sequence to a pound sign/hashtag # and send the request again, resulting in "200 OK". 
 
-Now, for column enumeration. Between the single quote ' and comment # add an order by statement so that the parameter value appears like this:
+Now, for column enumeration. Between the single quote ' and comment # add an ORDER BY statement so that the parameter value appears like this:
 ```
 Gifts'+ORDER+BY+1+#
 ```
