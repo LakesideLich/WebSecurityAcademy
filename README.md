@@ -21,3 +21,5 @@ Burp Suite is a web proxy and suite of tools for web application penetration tes
 ![Screen Shot 2023-07-06 at 1 03 42 AM](https://github.com/tatruesdell/WebSecurityAcademy/assets/43506369/ee9475bf-3df4-4583-b021-5a864c9b05b7)
 
    Note the academyLabHeader file is excluded as well to keep it from showing in the HTTP history. 
+
+2. When working in Burp Suite's Repeater tool, it is often useful to select the "URL-encode as you type" option. Simply right click and find the option in Burp Suite's context menu while in the Repeater tool. 
