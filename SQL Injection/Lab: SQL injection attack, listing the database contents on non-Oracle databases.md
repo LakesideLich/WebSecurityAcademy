@@ -30,7 +30,7 @@ The database should respond with a number of different table names, in this case
 Gifts' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name = 'users_wfgyrc'--
 ```
 
-The responses below show the column names returned by the database. 
+The response below shows the column names returned by the database. 
 
 ![Screen Shot 2023-07-08 at 7 56 23 PM](https://github.com/tatruesdell/WebSecurityAcademy/assets/43506369/9265a521-0cf9-4f8d-9b2e-d54d52cf050e)
 
