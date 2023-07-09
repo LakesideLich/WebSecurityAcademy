@@ -47,4 +47,4 @@ Which should show us the usernames and passwords, allowing us to login as the ad
 
 ![Screen Shot 2023-07-08 at 8 03 26 PM](https://github.com/tatruesdell/WebSecurityAcademy/assets/43506369/b6de4825-faa0-4f25-b728-08a1823b8254)
 
-We copy the password and use to log in as the administrator, solving the lab. 
+We copy the password to log in as the administrator, solving the lab. 
