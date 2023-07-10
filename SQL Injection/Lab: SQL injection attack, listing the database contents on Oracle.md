@@ -54,8 +54,11 @@ Gifts' UNION SELECT column_name,NULL FROM all_tab_columns WHERE table_name = 'US
 With the following results:
 
 ![Screen Shot 2023-07-10 at 4 26 32 PM](https://github.com/tatruesdell/WebSecurityAcademy/assets/43506369/53bb695c-c68d-4be5-8ccb-98fa9a809f9b)
+
 The above screenshot shows the name of the column containing passwords. 
+
 ![Screen Shot 2023-07-10 at 4 27 30 PM](https://github.com/tatruesdell/WebSecurityAcademy/assets/43506369/32c597c1-6dab-4690-92dc-1375d3c06aa9)
+
 This screenshot shows the name of the column containing usernames. 
 
 Now that we have the names of the username and password columns, we might finish with an attack like this:
