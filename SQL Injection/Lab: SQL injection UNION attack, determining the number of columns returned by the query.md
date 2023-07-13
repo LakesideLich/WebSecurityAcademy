@@ -4,3 +4,26 @@ This lab contains a SQL injection vulnerability in the product category filter. 
 
 # Solution
 
+Select a category of product such as "Gifts" while proxying traffic through Burp Suite. In Burp Suite's proxy history, identify the request with /filter?category=Gifts in the URL and send it to Burp Suite's Repeater tool. In Repeater, add a single quote to the end of the query and observe the error response:
+
+```
+Gifts' 
+```
+
+Add a double dash comment sequence to the end of the query and observe the "200 OK" response:
+
+```
+Gifts'--
+```
+
+Between the single quote and the comment, add "UNION SELECT NULL":
+
+```
+Gifts' UNION SELECT NULL--
+```
+
+Send the request and observe the 500 error response. Add more NULL columns until a 200 OK response is received:
+
+```
+Gifts' UNION SELECT NULL,NULL,NULL--
+```
