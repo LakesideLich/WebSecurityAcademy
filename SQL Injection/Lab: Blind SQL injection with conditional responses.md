@@ -4,7 +4,7 @@ This lab contains a blind SQL injection vulnerability. The application uses a tr
 
 # Solution
 
-While proxying traffic through Burp, start the lab. Refresh the page, and send the a request with the TrackingId cookie to Burp Repeater. Send the request and observe the 200 OK response. Search for "Welcome back!" in the response. The welcome back message is how we will exploit the blind SQL vulnerability. 
+While proxying traffic through Burp, start the lab. Refresh the page, and send the request with the TrackingId cookie to Burp Repeater. Send the request and observe the 200 OK response. Search for "Welcome back!" in the response. The welcome back message is how we will exploit the blind SQL vulnerability. 
 
 ![Screen Shot 2023-07-19 at 6 22 34 PM](https://github.com/LakesideLich/WebSecurityAcademy/assets/43506369/c28ae4e4-6737-48ab-9458-eba3aa8c3ca1)
 
