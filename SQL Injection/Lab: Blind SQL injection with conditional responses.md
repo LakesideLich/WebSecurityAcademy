@@ -16,7 +16,7 @@ We will structure the following sequence of queries like this:
 TrackingId=AbC...xYz' AND SUBSTRING((SELECT password FROM users WHERE username='administrator'), 1, 1) > 'm'--
 ```
 
-This format of query will be used to enumerate the administrator user's password one character at a time by incrementing the end of the string in the substring function. Don't worry if that doesn't make sense right away, just follow along! 
+This format of query will be used to enumerate the administrator user's password one character at a time by incrementing the start of the string in the substring function. Don't worry if that doesn't make sense right away, just follow along! 
 
 Note: the parameters of the SUBSTRING function are as follows: SUBSTRING(string, start, length). 
 
